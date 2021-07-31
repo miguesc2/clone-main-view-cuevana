@@ -1,0 +1,11 @@
+desactivados en eslint
+    "react/react-in-jsx-scope": "off",  para que no pida que React esté en el mismo componente 
+    "react/self-closing-comp": "off", evitar error de cerrar etiquetas vacias
+
+agregadas
+    "import/no-named-as-default": 0,
+
+para futuros usos
+    rules: {
+      'indent': 'off'  desactiva la regla de indentacion de eslint
+    }

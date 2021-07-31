@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+    z-index: 2;
+    transition: all .3s ease;
+}
+
+header div:first-child{
+    max-width: 1180px;
+}
+
+.scrollEffect{
+    background-color: #141A32;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: rgb(27, 27, 204) !important;
+}
+
+.botonDropdown{
+    background-color: rgba(23,9,47, 0) !important;
+    border: none !important;
+}
+
+.caretOne .dropdown-toggle::after, .caretTwo .dropdown-toggle::after {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    color: rgb(27, 27, 204);
+}
+
+.searchMovies{
+    background-color: rgba(23,9,47, .5) !important;
+    border-radius: 20px !important;
+    border-color: rgb(63, 20, 136) !important;
+    width: 170px !important;
+}
+
+.searchMovies::placeholder {
+    color: rgb(179, 179, 179) !important;
+}
+
+.searchMoviesIcon{
+    position: absolute;
+    top: 25%;
+    left: 78%;
+    width: 30px;
+    object-fit: cover;
+}
+
+div .buttonRegister{
+    border-radius: 35px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.triLineBg{
+    background-color: blue;
+    border-radius: 100%;
+    max-width: 3rem !important;
+    height: 3rem;
+}
+
+.triLineBg span i{
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    height: 3px;
+    margin: 5px auto;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .menuBoton>i{
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    height: 3px;
+    margin: 5px auto;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.aaaaaaaaaaa{
+    max-width: 185px !important;
+    min-width: 185px !important;
+}

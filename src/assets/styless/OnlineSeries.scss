@@ -1,0 +1,30 @@
+
+
+.thirdCarousel .carousel-indicators li{
+    position: relative;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    background-color: rgb(173, 162, 221) !important;
+    top: 25px;
+}
+
+.pOnlineTwo a{
+    font-size: 15px;
+}    
+.pOnlineTwo a:hover{
+    text-decoration: none;
+}    
+
+.pOnlineTwo a img{
+    max-width: 190px;
+    min-width: 190px;
+    max-height: 280px;
+    min-height: 280px;
+    border-radius: 5px;
+}    
+
+.seasonOne{
+    color: #8DA0BC;
+    font-size: 90%;
+}
