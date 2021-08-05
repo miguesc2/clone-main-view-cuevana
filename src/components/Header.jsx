@@ -69,7 +69,7 @@ function Header() {
             </Dropdown>
             <li className='pt-3'><a href='/' className='text-reset mr-xl-3 d-none d-lg-block'>Series</a></li>
           </ul>
-          <div className='col-12 text-reset col-md-2 col-md-auto aaaaaaaaaaa p-lg-0 ml-5 ml-lg-0 ml-xl-5 d-none d-lg-block'>
+          <div className='col-12 text-reset col-md-2 col-md-auto widthMax p-lg-0 ml-5 ml-lg-0 ml-xl-5 d-none d-lg-block'>
             <input type='text' placeholder='Buscar películas.' className='form-control searchMovies w-100 mt-2 ml-2 ml-xl-4' />
             <a href='/'><img src='https://img.icons8.com/nolan/2x/search.png' className='searchMoviesIcon ml-lg-0 ml-xl-3' alt='NotFound' /></a>
           </div>

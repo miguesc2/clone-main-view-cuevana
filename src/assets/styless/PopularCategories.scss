@@ -1,0 +1,31 @@
+div>.btnRegisterTwo{
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.secondCarousel .carousel-indicators li{
+    position: relative;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    background-color: rgb(173, 162, 221) !important;
+    top: 25px;
+}
+.secondCarousel .carousel-control-prev{
+    width: 2em;
+    left: 1%;
+}
+.secondCarousel>.carousel-control-next{
+    width: 2em;
+}
+.secondCarousel a p{
+    font-size: 15px;
+}
+.secondCarousel a img{
+    border-radius: 5px;
+}
+
+.imgMoreWidth{
+    width: 105%;
+}
