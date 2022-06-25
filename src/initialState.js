@@ -34,26 +34,26 @@ const initialState = {
   popucategory: [
     {
       id: 6,
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/the-walking-dead-71119-episode-22-season-10.jpg",
-      movieTitle: "The Walking Dead",
+      image: "https://ww3.cuevana.pro/resize/200/storage/24926/sVDzVWEnjWgGlHEUrYxvfu7Vz8WTcTvlNyoiU3QJ.jpg",
+      movieTitle: "Doctor Strange en el multiverso de la locura",
       classNamesItem: "float-left col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 text-reset"
     },
     {
       id: 7,
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/el-joven-sheldon-71104-episode-12-season-4.jpg",
-      movieTitle: "El joven Sheldon",
+      image: "https://ww3.cuevana.pro/resize/200/storage/36713/tjhuspxvcQr9XpRVXh6sxyHS4qdbZFsh0YUMunb3.jpg",
+      movieTitle: "Lightyear",
       classNamesItem: "float-left col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 text-reset"
     },
     {
       id: 8,
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/tell-me-your-secrets-71100-episode-7-season-1.jpg",
-      movieTitle: "Tell Me Your Secrets",
+      image: "https://ww3.cuevana.pro/resize/200/storage/33380/92D77KV0QPr10oVaKV3ncZuNCOYYXJYzhALfmIW2.jpg",
+      movieTitle: "Jurassic World: Dominion",
       classNamesItem: "float-left d-none d-sm-block col-sm-4 col-md-4 col-lg-3 col-xl-3 text-reset"
     },
     {
       id: 9,
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/tell-me-your-secrets-71099-episode-6-season-1.jpg",
-      movieTitle: "Tell Me Your Secrets II",
+      image: "https://ww3.cuevana.pro/resize/200/storage/28977/r242bW0C88WY9ocUxZT13xdA4X5Cx5YzvfpGfSRI.jpg",
+      movieTitle: "El milagro del padre Stu",
       classNamesItem: "float-left d-none d-lg-block col-lg-3 col-xl-3 text-reset"
     }
   ],
@@ -61,141 +61,95 @@ const initialState = {
     {
       id: 10,
       classNamesOnline: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/love-under-the-olive-tree-40736-poster-200x300.jpg",
-      movieTitleOnline: "Love Under the Oliver Tree"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38034/fVyZ9Th4sOxLLLFtJBdzwhiVL45F1OG8sbrg3Z2y.jpg",
+      movieTitleOnline: "Doula"
     },
     {
       id: 11,
       classNamesOnline: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/girl-cops-40732-poster-210x300.jpg",
-      movieTitleOnline: "Girl Cops"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38032/gNzzjFW5altf5BceyN04mLh09wKSROXoZRxBAHiV.jpg",
+      movieTitleOnline: "A Olivia"
     },
     {
       id: 12,
       classNamesOnline: "float-left d-none d-md-block col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/el-verano-que-vivimos-40728-poster-200x300.jpg",
-      movieTitleOnline: "El verano que  vivimos"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38013/TB3KffpjCEXlOFfJ7d7BcY3OUQhzLV26iXvtF8Ce.jpg",
+      movieTitleOnline: "Ben Crump: El abogado de los afroamericanos"
     },
     {
       id: 13,
       classNamesOnline: "float-left d-none d-lg-block col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/embrion-40725-poster-200x300.jpg",
-      movieTitleOnline: "Embrión"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38011/WvFxwCmeDXtEvC5LVAAX7CEFdoqFSmP22UrpWbML.jpg",
+      movieTitleOnline: "Directamente para video"
     },
   ],
   onlineMoviesRowTwo: [
     {
       id: 14,
       classNamesOnline: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2020/07/impetigore-31295-poster-202x300.jpg",
-      movieTitleOnline: "Impetigore"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38008/i6vIbGemZh47RetzDna63gvDkKTEhdkUUyNEejhz.jpg",
+      movieTitleOnline: "Condena de amor"
     },
     {
       id: 15,
       classNamesOnline: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/los-octonautas-y-el-cinturon-de-fuego-40717-poster-214x300.jpg",
-      movieTitleOnline: "Los Octonautas y el Cinturon de Fuego"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38006/V7Zjb4sWV0CjcBMkPBnYDW3lT9slp4EsiMUNuxQK.jpg",
+      movieTitleOnline: "First Love"
     },
     {
       id: 16,
       classNamesOnline: "float-left d-none d-md-block col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/bleed-40713-poster-203x300.jpg",
-      movieTitleOnline: "Bleed"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38004/TfRVVJkdorozS5B6MdXGHFzpfs5xoEKsXl5GYhFN.jpg",
+      movieTitleOnline: "Gracia y coraje"
     },
     {
       id: 17,
       classNamesOnline: "float-left d-none d-lg-block col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/free-byrd-40710-poster-200x300.jpg",
-      movieTitleOnline: "Free Byrd"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38002/cinLNRnEK28CfD8RT01u1LrKSXifcRJjbYyF7ZYK.jpg",
+      movieTitleOnline: "La Vida en el Silencio"
     },
-  ],
-  onlineMoviesRowThree: [
-    {
-      id: 18,
-      classNamesOnline: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/un-angel-en-nuestras-vidas-40707-poster-204x300.jpg",
-      movieTitleOnline: "Un Angel en Nuestras Vidas"
-    },
-    {
-      id: 19,
-      classNamesOnline: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/dawn-of-the-beast-40704-poster-200x300.jpg",
-      movieTitleOnline: "Dawn of the Beast"
-    },
-    {
-      id: 20,
-      classNamesOnline: "float-left d-none d-md-block col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/miedo-a-volar-40700-poster-200x300.jpg",
-      movieTitleOnline: "Miedo a Volar"
-    },
-    {
-      id: 21,
-      classNamesOnline: "float-left d-none d-lg-block col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/enfant-terrible-40696-poster-200x300.jpg",
-      movieTitleOnline: "Enfant Terrible"
-    },
-  ],
-  asideFlags: [
-    {
-      id: 22,
-      classNamesItem: 'mr-4',
-      image: "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/latino.svg",
-      nameFlag: 'FlagNotFound'
-    },
-    {
-      id: 23,
-      classNamesItem: 'mr-4',
-      image: "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/espana.svg",
-      nameFlag: 'FlagNotFound'
-    },
-    {
-      id: 24,
-      classNamesItem: '',
-      image: "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/subti.svg",
-      nameFlag: 'FlagNotFound'
-    }
   ],
   asidePremieres: [
     {
       id: 25,
-      image: "https://cuevana3.io/wp-content/uploads/2019/04/vengadores-endgame-13310-poster-100x100.jpg",
-      namePremieres: "Avengers:Endgame / Vengadores 4"
+      image: "https://ww3.cuevana.pro/resize/200/storage/24926/sVDzVWEnjWgGlHEUrYxvfu7Vz8WTcTvlNyoiU3QJ.jpg",
+      namePremieres: "Doctor Strange en el multiverso de la locura",
     },
     {
       id: 26,
-      image: "https://cuevana3.io/wp-content/uploads/2019/10/joker-21711-poster-100x100.jpg",
-      namePremieres: "Joker"
+      image: "https://ww3.cuevana.pro/resize/200/storage/36713/tjhuspxvcQr9XpRVXh6sxyHS4qdbZFsh0YUMunb3.jpg",
+      namePremieres: "Lightyear",
     },
     {
       id: 27,
-      image: "https://cuevana3.io/wp-content/uploads/2021/03/la-liga-de-la-justicia-de-zack-snyder-39793-poster-100x100.jpg",
-      namePremieres: "Liga de la Justicia de Zack Snyder"
+      image: "https://ww3.cuevana.pro/resize/200/storage/33380/92D77KV0QPr10oVaKV3ncZuNCOYYXJYzhALfmIW2.jpg",
+      namePremieres: "Jurassic World: Dominion",
     },
   ],
   onlineSeries: [
     {
       id: 28,
       classNamesOnlineS: "float-left col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/earth-at-night-in-color-41035-poster-200x300.jpg",
-      movieTitle: "Earth at Night in Color"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38090/gZ7vcEKeFfRLFxuBr2tPyBotPaowymnof8zQL82R.jpg",
+      movieTitle: "La Casa de Papel: Corea"
     },
     {
       id: 29,
       classNamesOnlineS: "float-left d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/big-shot-40978-poster-200x300.jpg",
-      movieTitle: "Big Shoot"
+      image: "https://ww3.cuevana.pro/resize/200/storage/33376/mxzG0OR4jK1XhdTgxzV5vesvjYyp2OCOgd8iWPIS.jpg",
+      movieTitle: "The Boys"
     },
     {
       id: 30,
       classNamesOnlineS: "float-left d-none d-md-block col-md-4 col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/kung-fu-40963-poster-200x300.jpg",
-      movieTitle: "Kung Fu"
+      image: "https://ww3.cuevana.pro/resize/200/storage/38021/sPPkotNMaLXhSMXrEDZXhaskRU8utY4UO1rc7rfV.jpg",
+      movieTitle: "Siempre fui yo"
     },
     {
       id: 31,
       classNamesOnlineS: "float-left d-none d-lg-block col-lg-3 text-reset",
-      image: "https://cuevana3.io/wp-content/uploads/2021/04/atlantic-crossing-40948-poster-200x300.jpg",
-      movieTitle: "Atlantic Crossing"
+      image: "https://ww3.cuevana.pro/resize/200/storage/37960/LQwNnEVQaXUUtDEuajBnXADCVzVyqjffAKo9w8Nz.jpg",
+      movieTitle: "Motherland: Fort Salem"
     },
 
   ]

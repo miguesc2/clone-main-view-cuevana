@@ -7,7 +7,7 @@ function Footer() {
       <footer className='footer container'>
         <nav className='row text-white float-left footerSpace text-center justify-content-between align-items-center'>
           <figure href='/' className='col-12 col-lg-3 col-xl-3'>
-            <img src='https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana-logo.png' alt='Cuevana' />
+            <img src='https://ww3.cuevana.pro/logo.png' alt='Cuevana' />
           </figure>
 
           <div className='col-12 col-md-8 col-lg-6 col-xl-6 infoText'>
@@ -26,7 +26,7 @@ function Footer() {
             </a>
           </div>
           <div className='footerText mx-auto mt-4 mt-lg-0'>
-            <p><small>© 2019 Cuevana 3 Peliculas Online, Todos los derechos reservados. Hay 4849 películas disponibles</small></p>
+            <p><small>CUEVANA es un servico de distribucion de peliculas y series gratis. En CUEVANA no se almacena ningún vídeo, estos se encuentran alojados en sitios de terceros. © CUEVANA. Todos los derechos reservados.</small></p>
           </div>
         </nav>
       </footer>

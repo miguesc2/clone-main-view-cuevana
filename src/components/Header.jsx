@@ -25,7 +25,7 @@ function Header() {
       <div className='container-fluid'>
         <nav className='row text-white pt-3 pb-3'>
           <a href='/' className='col-10 col-lg-auto mr-lg-0 mr-xl-3'>
-            <img src='https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png' alt='NotFound' />
+            <img src='https://ww3.cuevana.pro/logo.png' alt='NotFound' />
           </a>
 
           <ul className='nav col-auto col-xl-auto text-reset mr-xl-5'>

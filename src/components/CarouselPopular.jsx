@@ -3,8 +3,6 @@ import '../assets/styless/CarouselPopular.scss';
 import PopularCategories from './PopularCategories';
 import PeliculasOnlineOne from './peliculasOnline/PeliculasOnlineOne';
 import PeliculasOnlineTwo from './peliculasOnline/PeliculasOnlineTwo';
-import PeliculasOnlineThree from './peliculasOnline/PeliculasOnlineThree';
-import AsideFlags from './aside/AsideFlags';
 import AsidePremieres from './aside/AsidePremieres';
 
 export class CarouselPopular extends React.Component {
@@ -26,16 +24,10 @@ export class CarouselPopular extends React.Component {
 
           <PeliculasOnlineOne />
           <PeliculasOnlineTwo />
-          <PeliculasOnlineThree />
         </div>
 
         <div className='row d-none d-sm-block col-sm-12 col-xl-3 float-xl-left mt-4 ml-3'>
           <div className='col-12 col-md-6 col-xl-12'>
-            <img className='d-none d-xl-block' src='https://cuevana3.io/wp-content/themes/cuevana3/public/img/xgot.png.pagespeed.ic.kXvqsjr_iM.webp' alt='NotFound' />
-            <p className='alignCenterObjects mt-5'>
-              <small>FILTRAR PELÍCULAS POR IDIOMA</small>
-            </p>
-            <AsideFlags />
             <p className='alignCenterObjects mt-5' id='alignCenterObjectsId'>
               <small>TOP ESTRENOS</small>
             </p>

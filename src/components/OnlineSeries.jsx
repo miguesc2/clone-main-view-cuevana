@@ -18,8 +18,8 @@ function OnlineSeries({ onlineSeries }) {
         </div>
         <Carousel className='float-left w-100 text-center thirdCarousel'>
           <Carousel.Item className='pOnlineTwo'>
-            {onlineSeries.map(item =>
-              <a href='/' className={ item.classNamesOnlineS }>
+            {onlineSeries.map((item, index) =>
+              <a href='/' key={ index } className={ item.classNamesOnlineS }>
                 <img src={ item.image } alt={ item.movieTitle } />
                 <p className='mb-0'>{ item.movieTitle }</p>
                 <p className='seasonOne'>Temporadas</p>
@@ -27,8 +27,8 @@ function OnlineSeries({ onlineSeries }) {
             )}  
           </Carousel.Item>
           <Carousel.Item className='pOnlineTwo'>
-            {onlineSeries.map(item =>
-              <a href='/' className={ item.classNamesOnlineS }>
+            {onlineSeries.map((item, index) =>
+              <a href='/' key={ index } className={ item.classNamesOnlineS }>
                 <img src={ item.image } alt={ item.movieTitle } />
                 <p className='mb-0'>{ item.movieTitle }</p>
                 <p className='seasonOne'>Temporadas</p>
