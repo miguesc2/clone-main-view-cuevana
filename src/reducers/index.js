@@ -1,5 +1,2 @@
-const reducer = (state, action) => {
-  return state
-}
-
+const reducer = (state, action) =>  state
 export default reducer;

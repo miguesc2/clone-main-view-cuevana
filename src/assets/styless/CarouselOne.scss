@@ -1,20 +1,17 @@
 .principalCarousel .carousel-control-next .carousel-control-next-icon, .principalCarousel .carousel-control-prev .carousel-control-prev-icon{
     display: none !important;
 }
-
 .principalCarousel .carousel-indicators li{
     width: 10px !important;
     height: 10px !important;
     border-radius: 100% !important;
     background-color: rgb(173, 162, 221) !important;
 }
-
 .imgCarouselOne{
     object-fit: cover;
     height: 570px;
     filter: brightness(.6);
 }
-
 .carousel-caption{
     top: 130px;
 }
@@ -22,17 +19,14 @@
     max-width: 1180px;
 }
 .carousel-caption h1{
-    //font-size: 50px;
-    font-size: calc(1em + 2.6vw); //Tamaño 1em + calcula ancho de pantalla para encogerla 
+    font-size: calc(1em + 2.6vw);
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .carousel-caption p{
     color:  rgb(208, 204, 218);
     font-size: calc(1em + .3vw);
-    //font-size: 20px;
 }
-
 .playIcon{
     position: absolute;
     top: 5px;
@@ -40,7 +34,6 @@
     width: 22%;
     filter: invert(100%);
 }
-
 div .btnRegisterO{
     border-radius: 30px;
     padding: 10px 20px 10px 50px;

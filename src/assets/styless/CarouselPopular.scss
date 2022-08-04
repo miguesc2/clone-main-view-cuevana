@@ -1,11 +1,9 @@
 .menuMovieOnline{
     color: #4F6B95;
 }
-
 .pOnline a{
     font-size: 15px;
 }
-
 .pOnline a img{
     max-width: 190px;
     min-width: 190px;
@@ -13,21 +11,17 @@
     min-height: 280px;
     border-radius: 5px;
 }
-
 .pOnline p{
     max-width: 190px;
 }
-
 .secondCarousel a:hover, .menuMovieOnline a:hover, .pOnline a:hover{
     text-decoration: none;
 }
-
 .alignCenterObjects{
     display: block;
     text-align: center;
     width: 300px;
 }
-
 .alignCenterObjects small{
     color: #4f6b95;
     background: #141a32;
@@ -39,7 +33,6 @@
 #alignCenterObjectsId small{
     padding: 12px 85px;
 }
-
 .sectionRight img{
     width: 80px;
     height: 120px;
@@ -51,19 +44,16 @@
     height: 120px;
     margin: 20px 0;
 }
-
 .sectionRight p{
     font-size: .9em;
     color: white;
     font-weight: bold;
 }
-
-@media screen and (max-width: 700px) { //no exceder 700px y aplica el width de abajo
+@media screen and (max-width: 700px) {
     .alignCenterObjects{
         width: auto;
     }
 }
-
 @media screen and (max-width: 700px) {
     .sectionRight div{
         position: relative;
